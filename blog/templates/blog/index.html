@@ -33,7 +33,7 @@
                         Welcome to Salis's Blog
                         {% endif %}
                     </h3>
-                    <p class="text-light">How Are you.........Hope you having a fantastic day!!! &nbsp
+                    <p class="text-light">Enjoy Your DAY! &nbsp
                     </p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <h2 class="card-title">{{ post.title }}</h2>
                     <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
-                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">More &rarr;</a>
                 </div>
             </div>
             {% endfor %}
