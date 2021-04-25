@@ -1,1 +1,1 @@
-web:gunicorn mysite.wsgi --log-file -  --error-logfile - build:app
+web:gunicorn mysite.wsgi --log-file -  
