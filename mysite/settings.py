@@ -24,9 +24,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'blog/templates')
 SECRET_KEY = 'django-insecure-q$1#ts878r#z!o)_nnys21ju+(wncv&grpb##tk3nd4m8_o=-a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['salis-django.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
