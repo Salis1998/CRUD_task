@@ -1,5 +1,4 @@
 from django.contrib import admin
-from .models import Post
 
 LogEntry.objects.all().delete()
 # Customize the way the admin panel looks
